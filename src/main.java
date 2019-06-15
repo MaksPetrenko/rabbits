@@ -13,7 +13,7 @@ public class main {
         String rabbit3Name = s.nextLine();
         System.out.println("ім'я кролика 3 "+rabbit3Name);
 
-        System.out.println("\n|\t"+rabbit1Name+"\t|\t"+rabbit2Name+"\t|\t"+rabbit3Name+"\t|\n");
+        System.out.println("\nкролики\t|\t"+rabbit1Name+"\t|\t"+rabbit2Name+"\t|\t"+rabbit3Name+"\t|\n");
 
         System.out.println("введіть настрій 1 кролика");
         String rabbit1Mood = s.nextLine();
@@ -25,8 +25,8 @@ public class main {
         String rabbit3Mood = s.nextLine();
         System.out.println("настрій кролика 3 "+rabbit3Mood);
 
-        System.out.println("\n|\t"+rabbit1Name+"\t|\t"+rabbit2Name+"\t|\t"+rabbit3Name+"\t|");
-        System.out.println("|\t"+rabbit1Mood+"\t|\t"+rabbit2Mood+"\t|\t"+rabbit3Mood+"\t|\n");
+        System.out.println("\nкролики\t|\t"+rabbit1Name+"\t|\t"+rabbit2Name+"\t|\t"+rabbit3Name+"\t|");
+        System.out.println("настрій\t|\t"+rabbit1Mood+"\t|\t"+rabbit2Mood+"\t|\t"+rabbit3Mood+"\t|\n");
 
         System.out.println("введіть що сказав 1 кролик");
         String rabbit1Speech = s.nextLine();
@@ -38,8 +38,8 @@ public class main {
         String rabbit3Speech = s.nextLine();
         System.out.println("сказав кролик 3 "+rabbit3Speech);
 
-        System.out.println("\n|\t"+rabbit1Name+"\t|\t"+rabbit2Name+"\t|\t"+rabbit3Name+"\t|");
-        System.out.println("|\t"+rabbit1Mood+"\t|\t"+rabbit2Mood+"\t|\t"+rabbit3Mood+"\t|");
-        System.out.println("|\t"+rabbit1Speech+"\t|\t"+rabbit2Speech+"\t|\t"+rabbit3Speech+"\t|");
+        System.out.println("\nкролики\t|\t"+rabbit1Name+"\t|\t"+rabbit2Name+"\t|\t"+rabbit3Name+"\t|");
+        System.out.println("настрій\t|\t"+rabbit1Mood+"\t|\t"+rabbit2Mood+"\t|\t"+rabbit3Mood+"\t|");
+        System.out.println("слова\t|\t\""+rabbit1Speech+"\"\t|\t\""+rabbit2Speech+"\"\t|\t\""+rabbit3Speech+"\"\t|");
     }
 }

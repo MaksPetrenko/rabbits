@@ -2,48 +2,55 @@ import java.util.Scanner;
 public class main {
     public static void main(String []args) {
         Scanner s = new Scanner(System.in);
-        System.out.println("введіть ім'я 1 кролика");
-        String string = s.nextLine();
-        System.out.println("ім'я кролика 1 "+string);
-        System.out.println("введіть ім'я 2 кролика");
-        String pups =s.nextLine();
-        System.out.println("ім'я кролик 2 "+pups);
-        System.out.println("ведіть ім'я 3 кролика");
-        String guf = s.nextLine();
-        System.out.println("ім'я кролика 3 "+guf);
-        System.out.println("введіть настрій 1 кролика");
-        String puf = s.nextLine();
-        System.out.println("настрій кролика 1 "+puf);
-        System.out.println("введіть настрій 2 кролика");
-        String buf = s.nextLine();
-        System.out.println("настрій кролика 2 "+buf);
-        System.out.println("ведіть настрій 3 кролика");
-        String fuf = s.nextLine();
-        System.out.println("астрій кролика 3 "+fuf);
-        System.out.println("------------------------------------");
-        System.out.println("|\tBobik\t|\tSimba\t|\tBig Bob\t|");
-        System.out.println("------------------------------------");
-        System.out.println("|\tPlayful\t|\tSad\t\t|\tBad\t\t|");
-        System.out.println("------------------------------------");
-        System.out.println("ввести що сказав 1 кролик");
-        String bon =s.nextLine();
-        System.out.println("кролик 1 сказав "+bon);
-        System.out.println("ввести що сказав 2 кролик");
-        String bib = s.nextLine();
-        System.out.println("кролик 2 сказав "+bib);
-        System.out.println("ввести що сказав 3 кролик");
-        String bis = s.nextLine();
-        System.out.println("кролик 3 сказав "+bis);
-        System.out.println("--------------------------------------------");
-        System.out.println("|\tliet's play\t|\tI feel bad\t|\tI'm ill\t|");
-        System.out.println("--------------------------------------------");
 
-        System.out.println("--------------------------------------------");
-        System.out.println("|\tBobik\t\t|\tSimba\t|\tBig Bob\t\t|");
-        System.out.println("--------------------------------------------");
-        System.out.println("|\tPlayfull\t|\tSad\t\t|\tBad\t\t|");
-        System.out.println("--------------------------------------------");
-        System.out.println("|\tlet's play\t|\tI feel bad\t|\tI'm ill\t|");
-        System.out.println("--------------------------------------------");
+        System.out.println("введіть ім'я 1 кролика");
+        String rabbit1Name = s.nextLine();
+        System.out.println("ім'я кролика 1 "+rabbit1Name);
+        System.out.println("введіть ім'я 2 кролика");
+        String rabbit2Name = s.nextLine();
+        System.out.println("ім'я кролика 2 "+rabbit2Name);
+        System.out.println("введіть ім'я 3 кролика");
+        String rabbit3Name = s.nextLine();
+        System.out.println("ім'я кролика 3 "+rabbit3Name);
+
+        System.out.println("------------------------");
+        System.out.println("|\t"+rabbit1Name+"\t|\t"+rabbit2Name+"\t|\t"+rabbit3Name+"\t|");
+        System.out.println("------------------------");
+
+        System.out.println("введіть настрій 1 кролика");
+        String rabbit1Mood = s.nextLine();
+        System.out.println("настрій кролика 1 "+rabbit1Mood);
+        System.out.println("введіть настрій 2 кролика");
+        String rabbit2Mood = s.nextLine();
+        System.out.println("настрій кролика 2 "+rabbit2Mood);
+        System.out.println("введіть настрій 3 кролика");
+        String rabbit3Mood = s.nextLine();
+        System.out.println("настрій кролика 3 "+rabbit3Mood);
+
+        System.out.println("------------------------");
+        System.out.println("|\t"+rabbit1Name+"\t|\t"+rabbit2Name+"\t|\t"+rabbit3Name+"\t|");
+        System.out.println("------------------------");
+        System.out.println("|\t"+rabbit1Mood+"\t|\t"+rabbit2Mood+"\t|\t"+rabbit3Mood+"\t|");
+        System.out.println("------------------------");
+
+        System.out.println("введіть що сказав 1 кролик");
+        String rabbit1Speech = s.nextLine();
+        System.out.println("сказав кролик 1 "+rabbit1Speech);
+        System.out.println("введіть що сказав 2 кролик");
+        String rabbit2Speech = s.nextLine();
+        System.out.println("сказав кролик 2 "+rabbit2Speech);
+        System.out.println("введіть що сказав 3 кролик");
+        String rabbit3Speech = s.nextLine();
+        System.out.println("сказав кролик 3 "+rabbit3Speech);
+
+        System.out.println("------------------------");
+        System.out.println("|\t"+rabbit1Name+"\t|\t"+rabbit2Name+"\t|\t"+rabbit3Name+"\t|");
+        System.out.println("------------------------");
+        System.out.println("|\t"+rabbit1Mood+"\t|\t"+rabbit2Mood+"\t|\t"+rabbit3Mood+"\t|");
+        System.out.println("------------------------");
+        System.out.println("|\t"+rabbit1Speech+"\t|\t"+rabbit2Speech+"\t|\t"+rabbit3Speech+"\t|");
+        System.out.println("------------------------");
+
+
     }
 }

@@ -22,11 +22,11 @@ public class main {
         System.out.println("\nкролики\t|\t"+rabbit1Name+"\t|\t"+rabbit2Name+"\t|\t"+rabbit3Name+"\t|");
         System.out.println("настрій\t|\t"+rabbit1Mood+"\t|\t"+rabbit2Mood+"\t|\t"+rabbit3Mood+"\t|\n");
 
-        System.out.print("сказав кролик 1: ");
+        System.out.print("сказав кролик 1: \"");
         String rabbit1Speech = s.nextLine();
-        System.out.print("сказав кролик 2: ");
+        System.out.print("сказав кролик 2: \"");
         String rabbit2Speech = s.nextLine();
-        System.out.print("сказав кролик 3: ");
+        System.out.print("сказав кролик 3: \"");
         String rabbit3Speech = s.nextLine();
 
         System.out.println("\nкролики\t|\t"+rabbit1Name+"\t|\t"+rabbit2Name+"\t|\t"+rabbit3Name+"\t|");
